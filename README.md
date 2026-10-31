@@ -14,4 +14,28 @@ For the other one you need to go to https://api.slack.com/OAuth & Permissions ta
 after that go down a bit and click on generate token.
 Then but those token's into a .env file, then make a .gitignore file and write .env in it.
 
-# and that's it for now...
+# Build the bot locally
+Now we’ll create the Node project, drop in the bot code, and run it on your machine.
+
+1. Create the project
+Create a new folder for your project and open it in VS Code.
+
+Open the integrated terminal with Terminal → New Terminal so commands run inside the project folder.
+
+Initialize the project and install dependencies:
+
+# npm init -y
+# npm install @slack/bolt dotenv
+
+npm: command not found / npm is not recognized? You don’t have Node.js installed. Download it from nodejs.org/en/download, then re-run the commands above.
+
+# warning without this the bot will not run!
+If you used a different slash command name in the Slack dashboard, change /think-bot-e490-ping here to match.
+
+# 4. Run the bot
+node index.js
+
+If it works, you’ll see:
+
+bot is running!
+<img width="1920" height="1008" alt="Slack API_ Applications _ Hack Club Slack - Google Chrome 2026  10  31  19_46_03" src="https://github.com/user-attachments/assets/138f0218-25fc-4502-b951-798dc893cef0" />
