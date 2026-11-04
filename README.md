@@ -39,3 +39,8 @@ If it works, you’ll see:
 
 bot is running!
 <img width="1920" height="1008" alt="Slack API_ Applications _ Hack Club Slack - Google Chrome 2026  10  31  19_46_03" src="https://github.com/user-attachments/assets/138f0218-25fc-4502-b951-798dc893cef0" />
+# To test it type a command.
+1. /think-bot-e490-ping (test's if the bot is alive)
+2. /think-bot-e490-help ( show's all the command's)
+3. /think-bot-e490-catfact (give's a cat fact)
+4. /think-bot-e490-joke (give's a joke)
